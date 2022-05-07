@@ -39,7 +39,7 @@ transformers==4.12.3
 1. Downloading the models
 - For all English tasks we use [vanilla BERT-Large, cased](https://storage.googleapis.com/bert_models/2018_10_18/cased_L-24_H-1024_A-16.zip)
 
-- For all the Chinese tasks we use [UER BERT base (MixedCorpus+BertEncoder(base)+BertTarget)](https://share.weiyun.com/5QOzPqq)
+- For all the Chinese tasks we use [UER-BERT-Base (MixedCorpus+BertEncoder(base)+BertTarget)](https://share.weiyun.com/5QOzPqq)
 
 - For PET, we can choice [English-RoBERTa-Large](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.tar.gz) proposed by Fairseq, and [English-RoBERTa-Large wiki+books](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.bookswiki.100k.tar.gz)
 
