@@ -1,5 +1,6 @@
 # Prompts4Keras
-Prompt-learning methods used BERT4Keras (PET, EFL and NSP-BERT), both for Chinese and English.
+Run the experiments in our paper "NSP-BERT: A Prompt-based Few-Shot Learner Through an Original Pre-training Task —— Next Sentence Prediction"
+Prompt-learning methods are used BERT4Keras (PET, EFL and NSP-BERT), both for Chinese and English.
 
 ## Overview
 In order to better compare NSP-BERT and other two basic prompt-learning methods based on MLM and NLI in Chinese and English two languages, and can easily conduct experiments on the BERT4Keras framework, especially transfer the original English RoBERTa model to the BERT4Keras framework, we developed this repository.
@@ -18,7 +19,7 @@ Mainly for text classification tasks in zero-shot and few-shot learning scenario
 
 - English-RoBERTa proposed by [Fairseq](https://github.com/pytorch/fairseq/tree/main/examples/roberta).
 
-*NOTE: We need to use some scripts to convert the pytorch model to the tensorflow model we used.*
+*NOTE: We need to use scripts in `./tools/...` to convert the pytorch model to the tensorflow model we used.*
 
 ## Environments
 Different from the baselines, this repository all uses the BERT4Keras framework, which is completely based on tensorflow.
@@ -43,7 +44,7 @@ transformers==4.12.3
 
 - For PET, we can choice [English-RoBERTa-Large](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.tar.gz) proposed by Fairseq, and [English-RoBERTa-Large wiki+books](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.bookswiki.100k.tar.gz)
 
-- For EFL, we need to use model trained on NLI dataset, such as [English RoBERTa-Large-MNLI](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.mnli.tar.gz), or [Chinese-BERT-base-OCNLI]() (we trained by ourselves)
+- For EFL, we need to use model trained on NLI dataset, such as [English RoBERTa-Large-MNLI](https://dl.fbaipublicfiles.com/fairseq/models/roberta.large.mnli.tar.gz), or [Chinese-BERT-base-OCNLI]() (we trained by ourselves on OCNLI by `./tools/cls_nli_bert.py`)
 
 2. Convert pytorch models to tf
 
