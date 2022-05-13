@@ -1,4 +1,4 @@
-export PYTHONPATH=../NSP-BERT/
+export PYTHONPATH=../Prompts4Keras/
 for TASK in SST-2 MR CR MPQA Subj Yahoo AGNews EPRSTMT TNEWS TNEWSK CSLDCP IFLYTEK
     do
     case $TASK in

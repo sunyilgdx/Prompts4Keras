@@ -1,4 +1,4 @@
-export PYTHONPATH=../NSP-BERT/
+export PYTHONPATH=../Prompts4Keras/
 for i in 1 2 3 4 5
 do
   python ./baselines/efl_classification_roberta.py \
