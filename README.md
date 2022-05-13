@@ -51,7 +51,7 @@ transformers==4.12.3
 - `convert_fairseq_roberta_to_tf.py`
 - `convert_bert_from_uer_to_original_tf.py`
 
-3. Using `run_nsp_bert.sh` and other scripts to reproduce our experiments. For each few-shot learning task, we divide the training set and dev set according to 5 random seeds, and conduct experiments separately.
+3. Using `run_experiment.sh` or `run_nsp_bert.sh` and other scripts to reproduce our experiments. For each few-shot learning task, we divide the training set and dev set according to 5 random seeds, and conduct experiments separately.
 - English tasks
 **dataset_name**: `SST-2`, `MR`, `CR`, `Subj`, `MPQA`, `Yahoo!`, `AGNews`.
 ```
