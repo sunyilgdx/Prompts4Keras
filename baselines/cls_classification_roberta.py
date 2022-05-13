@@ -205,7 +205,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default='1', help="The device to train model, -1 means CPU.")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size.")
     parser.add_argument("--predict_batch_size", type=int, default=32, help="Batch size while predicting.")
-    parser.add_argument("--loss_function", type=str, default='BCE', choices=['softmax'],
+    parser.add_argument("--loss_function", type=str, default='softmax', choices=['softmax'],
                         help="The loss function used by different tasks.")
     parser.add_argument("--learning_rate", type=float, default=2e-5, help="Learning rate.")
     parser.add_argument("--epochs", type=int, default=10, help="The epochs of training.")
