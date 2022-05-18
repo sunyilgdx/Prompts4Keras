@@ -36,6 +36,13 @@ torch==1.7.0
 transformers==4.12.3
 ```
 
+## Datasets
+FewCLUE datasets can be downloaded [here](https://github.com/CLUEbenchmark/FewCLUE/tree/main/datasets)
+
+English datasets should download by [here](https://nlp.cs.princeton.edu/projects/lm-bff/datasets.tar) and use the script `generate_k_shot_data.py`.
+
+[Yahoo!](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M) and [AGNews](http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html) should use the script, too.
+
 ## Reproduce experiments
 1. Downloading the models
 - For all English tasks we use [vanilla BERT-Large, cased](https://storage.googleapis.com/bert_models/2018_10_18/cased_L-24_H-1024_A-16.zip)
