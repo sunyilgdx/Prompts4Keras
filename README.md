@@ -61,6 +61,14 @@ English datasets should download by [here](https://nlp.cs.princeton.edu/projects
 3. Using `run_experiment.sh` or `run_nsp_bert.sh` and other scripts to reproduce our experiments. For each few-shot learning task, we divide the training set and dev set according to 5 random seeds, and conduct experiments separately.
 - English tasks
 **dataset_name**: `SST-2`, `MR`, `CR`, `Subj`, `MPQA`, `Yahoo!`, `AGNews`.
+
+## Models Pre-trained by Ourselves
+BERT-Large-Mix5-5M
+
+Link：https://share.weiyun.com/0z8enwbM Code：vsf5s8
+
+## Scripts
+
 ```
 for i in 1 2 3 4 5
 do
