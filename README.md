@@ -65,7 +65,7 @@ English datasets should download by [here](https://nlp.cs.princeton.edu/projects
 ## Models Pre-trained by Ourselves
 BERT-Large-Mix5-5M
 
-Link：https://share.weiyun.com/0z8enwbM Code：vsf5s8
+Link：https://share.weiyun.com/MXroU3g1 Code：2ebdf4
 
 ## Scripts
 
